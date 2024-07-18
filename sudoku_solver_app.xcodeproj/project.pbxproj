@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E90680B52BD59A9C00BA60EC /* views.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90680B42BD59A9B00BA60EC /* views.swift */; };
+		E9104D772BD9727600E08F3B /* FieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9104D762BD9727600E08F3B /* FieldView.swift */; };
+		E93C57092BDC224000BD2B1B /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C57082BDC224000BD2B1B /* extensions.swift */; };
+		E94602762BDAF87C004437A6 /* NumberButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94602752BDAF87B004437A6 /* NumberButton.swift */; };
+		E978960E2BD49B3E001EDEFE /* sudoku_solver_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E978960D2BD49B3E001EDEFE /* sudoku_solver_appApp.swift */; };
+		E97896102BD49B3E001EDEFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E978960F2BD49B3E001EDEFE /* ContentView.swift */; };
+		E97896122BD49B3F001EDEFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E97896112BD49B3F001EDEFE /* Assets.xcassets */; };
+		E97896152BD49B3F001EDEFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E97896142BD49B3F001EDEFE /* Preview Assets.xcassets */; };
+		E978961F2BD49B3F001EDEFE /* sudoku_solver_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E978961E2BD49B3F001EDEFE /* sudoku_solver_appTests.swift */; };
+		E97896292BD49B3F001EDEFE /* sudoku_solver_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97896282BD49B3F001EDEFE /* sudoku_solver_appUITests.swift */; };
+		E978962B2BD49B3F001EDEFE /* sudoku_solver_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E978962A2BD49B3F001EDEFE /* sudoku_solver_appUITestsLaunchTests.swift */; };
+		E97896442BD49CA0001EDEFE /* sudoku_solver.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97896432BD49CA0001EDEFE /* sudoku_solver.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E978961B2BD49B3F001EDEFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E97896022BD49B3E001EDEFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E97896092BD49B3E001EDEFE;
+			remoteInfo = sudoku_solver_app;
+		};
+		E97896252BD49B3F001EDEFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E97896022BD49B3E001EDEFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E97896092BD49B3E001EDEFE;
+			remoteInfo = sudoku_solver_app;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E90680B42BD59A9B00BA60EC /* views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = views.swift; sourceTree = "<group>"; };
+		E9104D762BD9727600E08F3B /* FieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldView.swift; sourceTree = "<group>"; };
+		E93C57082BDC224000BD2B1B /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		E94602752BDAF87B004437A6 /* NumberButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberButton.swift; sourceTree = "<group>"; };
+		E978960A2BD49B3E001EDEFE /* sudoku_solver_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sudoku_solver_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E978960D2BD49B3E001EDEFE /* sudoku_solver_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sudoku_solver_appApp.swift; sourceTree = "<group>"; };
+		E978960F2BD49B3E001EDEFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E97896112BD49B3F001EDEFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E97896142BD49B3F001EDEFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E978961A2BD49B3F001EDEFE /* sudoku_solver_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sudoku_solver_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E978961E2BD49B3F001EDEFE /* sudoku_solver_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sudoku_solver_appTests.swift; sourceTree = "<group>"; };
+		E97896242BD49B3F001EDEFE /* sudoku_solver_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sudoku_solver_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E97896282BD49B3F001EDEFE /* sudoku_solver_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sudoku_solver_appUITests.swift; sourceTree = "<group>"; };
+		E978962A2BD49B3F001EDEFE /* sudoku_solver_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sudoku_solver_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E97896432BD49CA0001EDEFE /* sudoku_solver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sudoku_solver.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E97896072BD49B3E001EDEFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E97896172BD49B3F001EDEFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E97896212BD49B3F001EDEFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E97896012BD49B3E001EDEFE = {
+			isa = PBXGroup;
+			children = (
+				E978960C2BD49B3E001EDEFE /* sudoku_solver_app */,
+				E978961D2BD49B3F001EDEFE /* sudoku_solver_appTests */,
+				E97896272BD49B3F001EDEFE /* sudoku_solver_appUITests */,
+				E978960B2BD49B3E001EDEFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E978960B2BD49B3E001EDEFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E978960A2BD49B3E001EDEFE /* sudoku_solver_app.app */,
+				E978961A2BD49B3F001EDEFE /* sudoku_solver_appTests.xctest */,
+				E97896242BD49B3F001EDEFE /* sudoku_solver_appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E978960C2BD49B3E001EDEFE /* sudoku_solver_app */ = {
+			isa = PBXGroup;
+			children = (
+				E97896432BD49CA0001EDEFE /* sudoku_solver.swift */,
+				E978960D2BD49B3E001EDEFE /* sudoku_solver_appApp.swift */,
+				E978960F2BD49B3E001EDEFE /* ContentView.swift */,
+				E97896112BD49B3F001EDEFE /* Assets.xcassets */,
+				E97896132BD49B3F001EDEFE /* Preview Content */,
+				E90680B42BD59A9B00BA60EC /* views.swift */,
+				E9104D762BD9727600E08F3B /* FieldView.swift */,
+				E94602752BDAF87B004437A6 /* NumberButton.swift */,
+				E93C57082BDC224000BD2B1B /* extensions.swift */,
+			);
+			path = sudoku_solver_app;
+			sourceTree = "<group>";
+		};
+		E97896132BD49B3F001EDEFE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E97896142BD49B3F001EDEFE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E978961D2BD49B3F001EDEFE /* sudoku_solver_appTests */ = {
+			isa = PBXGroup;
+			children = (
+				E978961E2BD49B3F001EDEFE /* sudoku_solver_appTests.swift */,
+			);
+			path = sudoku_solver_appTests;
+			sourceTree = "<group>";
+		};
+		E97896272BD49B3F001EDEFE /* sudoku_solver_appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E97896282BD49B3F001EDEFE /* sudoku_solver_appUITests.swift */,
+				E978962A2BD49B3F001EDEFE /* sudoku_solver_appUITestsLaunchTests.swift */,
+			);
+			path = sudoku_solver_appUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E97896092BD49B3E001EDEFE /* sudoku_solver_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E978962E2BD49B40001EDEFE /* Build configuration list for PBXNativeTarget "sudoku_solver_app" */;
+			buildPhases = (
+				E97896062BD49B3E001EDEFE /* Sources */,
+				E97896072BD49B3E001EDEFE /* Frameworks */,
+				E97896082BD49B3E001EDEFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sudoku_solver_app;
+			productName = sudoku_solver_app;
+			productReference = E978960A2BD49B3E001EDEFE /* sudoku_solver_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E97896192BD49B3F001EDEFE /* sudoku_solver_appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E97896312BD49B40001EDEFE /* Build configuration list for PBXNativeTarget "sudoku_solver_appTests" */;
+			buildPhases = (
+				E97896162BD49B3F001EDEFE /* Sources */,
+				E97896172BD49B3F001EDEFE /* Frameworks */,
+				E97896182BD49B3F001EDEFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E978961C2BD49B3F001EDEFE /* PBXTargetDependency */,
+			);
+			name = sudoku_solver_appTests;
+			productName = sudoku_solver_appTests;
+			productReference = E978961A2BD49B3F001EDEFE /* sudoku_solver_appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E97896232BD49B3F001EDEFE /* sudoku_solver_appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E97896342BD49B40001EDEFE /* Build configuration list for PBXNativeTarget "sudoku_solver_appUITests" */;
+			buildPhases = (
+				E97896202BD49B3F001EDEFE /* Sources */,
+				E97896212BD49B3F001EDEFE /* Frameworks */,
+				E97896222BD49B3F001EDEFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E97896262BD49B3F001EDEFE /* PBXTargetDependency */,
+			);
+			name = sudoku_solver_appUITests;
+			productName = sudoku_solver_appUITests;
+			productReference = E97896242BD49B3F001EDEFE /* sudoku_solver_appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E97896022BD49B3E001EDEFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					E97896092BD49B3E001EDEFE = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					E97896192BD49B3F001EDEFE = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = E97896092BD49B3E001EDEFE;
+					};
+					E97896232BD49B3F001EDEFE = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = E97896092BD49B3E001EDEFE;
+					};
+				};
+			};
+			buildConfigurationList = E97896052BD49B3E001EDEFE /* Build configuration list for PBXProject "sudoku_solver_app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E97896012BD49B3E001EDEFE;
+			productRefGroup = E978960B2BD49B3E001EDEFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E97896092BD49B3E001EDEFE /* sudoku_solver_app */,
+				E97896192BD49B3F001EDEFE /* sudoku_solver_appTests */,
+				E97896232BD49B3F001EDEFE /* sudoku_solver_appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E97896082BD49B3E001EDEFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E97896152BD49B3F001EDEFE /* Preview Assets.xcassets in Resources */,
+				E97896122BD49B3F001EDEFE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E97896182BD49B3F001EDEFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E97896222BD49B3F001EDEFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E97896062BD49B3E001EDEFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94602762BDAF87C004437A6 /* NumberButton.swift in Sources */,
+				E90680B52BD59A9C00BA60EC /* views.swift in Sources */,
+				E97896102BD49B3E001EDEFE /* ContentView.swift in Sources */,
+				E93C57092BDC224000BD2B1B /* extensions.swift in Sources */,
+				E97896442BD49CA0001EDEFE /* sudoku_solver.swift in Sources */,
+				E978960E2BD49B3E001EDEFE /* sudoku_solver_appApp.swift in Sources */,
+				E9104D772BD9727600E08F3B /* FieldView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E97896162BD49B3F001EDEFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E978961F2BD49B3F001EDEFE /* sudoku_solver_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E97896202BD49B3F001EDEFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E978962B2BD49B3F001EDEFE /* sudoku_solver_appUITestsLaunchTests.swift in Sources */,
+				E97896292BD49B3F001EDEFE /* sudoku_solver_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E978961C2BD49B3F001EDEFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E97896092BD49B3E001EDEFE /* sudoku_solver_app */;
+			targetProxy = E978961B2BD49B3F001EDEFE /* PBXContainerItemProxy */;
+		};
+		E97896262BD49B3F001EDEFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E97896092BD49B3E001EDEFE /* sudoku_solver_app */;
+			targetProxy = E97896252BD49B3F001EDEFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E978962C2BD49B40001EDEFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E978962D2BD49B40001EDEFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E978962F2BD49B40001EDEFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sudoku_solver_app/Preview Content\"";
+				DEVELOPMENT_TEAM = 2HF56WJ394;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sudoku Solver";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.sudoku-solver-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E97896302BD49B40001EDEFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sudoku_solver_app/Preview Content\"";
+				DEVELOPMENT_TEAM = 2HF56WJ394;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sudoku Solver";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.sudoku-solver-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E97896322BD49B40001EDEFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2HF56WJ394;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.sudoku-solver-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sudoku_solver_app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sudoku_solver_app";
+			};
+			name = Debug;
+		};
+		E97896332BD49B40001EDEFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2HF56WJ394;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.sudoku-solver-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sudoku_solver_app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sudoku_solver_app";
+			};
+			name = Release;
+		};
+		E97896352BD49B40001EDEFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2HF56WJ394;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.sudoku-solver-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sudoku_solver_app;
+			};
+			name = Debug;
+		};
+		E97896362BD49B40001EDEFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2HF56WJ394;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.sudoku-solver-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sudoku_solver_app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E97896052BD49B3E001EDEFE /* Build configuration list for PBXProject "sudoku_solver_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E978962C2BD49B40001EDEFE /* Debug */,
+				E978962D2BD49B40001EDEFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E978962E2BD49B40001EDEFE /* Build configuration list for PBXNativeTarget "sudoku_solver_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E978962F2BD49B40001EDEFE /* Debug */,
+				E97896302BD49B40001EDEFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E97896312BD49B40001EDEFE /* Build configuration list for PBXNativeTarget "sudoku_solver_appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E97896322BD49B40001EDEFE /* Debug */,
+				E97896332BD49B40001EDEFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E97896342BD49B40001EDEFE /* Build configuration list for PBXNativeTarget "sudoku_solver_appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E97896352BD49B40001EDEFE /* Debug */,
+				E97896362BD49B40001EDEFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E97896022BD49B3E001EDEFE /* Project object */;
+}
